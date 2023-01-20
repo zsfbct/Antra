@@ -1,0 +1,122 @@
+h1, h2, .text {
+    color: #fff;
+}
+
+body, html {
+    background-color: black;
+}
+
+.section1, .section2, .section3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    width: 50%;
+    position: relative; 
+    z-index: 1; 
+}
+
+.img-container > img {
+    width: 100%;
+}
+
+.video1 {
+    position: absolute;
+    top: 20.8%;
+    left: 13.2%;
+    width: 72.7%;
+    z-index: -100;
+}
+
+.video2 {
+    position: absolute;
+    top: 0%;
+    left: 17%;
+    width: 65%;
+    height: 66%;
+    z-index: -100;
+}
+
+.bar {
+    position: absolute;
+    border: solid rgb(61, 59, 59) 2px;
+    top:69%;
+    left:16%;
+    width:68%;
+    background-color: black;
+    border-radius: 15px;
+    height: 96px;
+}
+
+.bar-flex {
+    margin: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.bar-flex-sub {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+
+.img4 {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+
+.text-0 {
+    margin: 0 0;
+    font-size: 110%;
+    font-weight: bold;
+    color: #fff;
+}
+.text-1 {
+    margin: 0 0;
+    font-size: 80%;
+    color:rgb(42,111,220);
+}
+
+.download-mark {
+    width: 50px;
+    height: 50px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 1200px;
+    min-width: 1000px;
+    margin: 30px auto;
+}
+
+.text {
+    width: 45%;
+    font-size: 1.2rem;
+}
+
+.text-inline {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.title, .text {
+    text-align: left;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+hr {
+    border: solid rgba(255, 255, 255, 0.1) 3px;
+}
